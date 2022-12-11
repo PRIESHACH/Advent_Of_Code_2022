@@ -122,6 +122,8 @@ req_free_space = 30000000
 occupied_space = directories["/"].get_size()
 current_free_space = total_disk_size - occupied_space
 
+Print("Made by PRIESHACH, Discord: ScottishBeast#7910")
+
 # Find all directories whose deletion will free the required amount of space
 matching_directory_sizes = []
 for path, directory in directories.items():
